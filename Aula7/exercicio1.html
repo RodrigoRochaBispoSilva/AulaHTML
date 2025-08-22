@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1
+       
+       .titulo
+       {
+        color: rgb(256, 256, 256);
+       text-align: center;
+        background-color: hotpink;
+        font-size: 40px;
+        padding: 60px;
+    
+       }
+       
+       h1
         {
             margin: 20px;
             background-color:rgb(75, 100, 150) ;
@@ -35,12 +46,26 @@
         padding: 8px;
         margin: 20px;
        }
-
+       
+       table, th, td
+       {
+        border: 1px solid red;
+        border-collapse:collapse ;
+        padding: 5px;
+        margin: 20px;
+       }
     </style>
 </head>
 <body>
    
-    <h1 >Pagina de Exercicios de CSS.</h1>
+    <p class="titulo">
+       Pagina de Exercicios de CSS.
+       <br> <a href="#" class="h1">Inicio</a>
+       <a href="#" class="h1">Sobre</a>
+       <a href="#" class="h1">Contato</a>
+
+    </p>
+    
 
     <h2>1. Paragrafos e Cores</h2>
 
@@ -65,5 +90,27 @@
         </ul>
 
         <h2>4. Tabela de Estilo</h2>
+
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+            <tr>
+                <td>Joao</td>
+                <td>25</td>
+                <td>Sao Paulo</td>
+
+            </tr>
+
+            <tr>
+                <td>Ana</td>
+                <td>30</td>
+                <td>Rio de Janeiro</td>
+
+
+            </tr>
+        </table>
 </body>
 </html>
