@@ -34,6 +34,37 @@
             padding: 5px;
             margin: 20px;
         }
+
+        .destaque
+        {
+            background-color: yellow;
+        }
+            
+        .linha1
+        {
+            background-color: rgb(102, 14, 14);
+            color: white;
+        }
+
+        .linha2
+        {
+            background-color: rgb(234, 210, 210);
+        }
+
+        .linha3
+        {
+            background-color: rgb(205, 240, 205);
+        }
+
+        .classes
+        {
+            width: 80%;
+        }
+
+        .clases2
+        {
+            border: 3px dotted red;
+        }
     </style>
 </head>
 <body>
@@ -48,32 +79,33 @@
         
         <h3>Estoque de Produtos.</h3>
         
-        <table>
-            <tr>
+        <table class="classes">
+            <tr class="linha1">
                 <th>Produto</th>
                 <th>Categoria</th>
                 <th>Preco</th>
                 <th>Disponibilidade</th>
             </tr>
-            <tr>
-                <td>Mouse</td>
+            <tr class="linha2">
+                <td><b> Mouse</b></td>
                 <td>Perifericos</td>
                 <td>R$ 80,00</td>
                 <td>Em estoque</td>
             </tr>
-            <tr>
+            <tr class="linha3">
                 <td>Teclado</td>
                 <td>Perifericos</td>
-                <td>R$ 120,00</td>
+                <td class="destaque clases2"> <b>R$ 120,00</b></td>
                 <td>Fora de estoque </td>
             </tr>
-            <tr>
-                <td>Monitor</td>
+            <tr class="linha2">
+                <td><i> Monitor</i></td>
                 <td>Display</td>
                 <td>R$ 850,00</td>
-                <td>Em reposicao</td>
+                <td><u> Em reposicao</u></td>
             </tr>
-            <tr>
+            
+            <tr class="linha3">
                 <td>Headset</td>
                 <td>Audio</td>
                 <td>R$ 210,00</td>
@@ -85,7 +117,7 @@
             Tarefas:
         </p>
        <ul>
-        <li>Adicione duas novas linhas de produtos e aplique negrito, italico, sublinhado conforme desejar.</li>
+        <li>Adicione duas novas linhas de produtos e aplique<b> negrito</b>, <i> italico</i>, <u> sublinhado</u> conforme desejar.</li>
        <li>Aplique a calsse .destque em uma celula diferente e observe o efeito.</li>
     </ul>
     </div>
