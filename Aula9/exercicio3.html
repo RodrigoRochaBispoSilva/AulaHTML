@@ -5,30 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body
-        {
-            margin: 0;
-            padding: 0;
-        }
+       .cima
+       {
+        background-color: brown;
+        height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
 
-        .conteudo
-        {
-            display: flex;
-            justify-content: space-between;
+       .classe
+       {
+        text-decoration: underline;
+        text-decoration-color: white;
+        color: white;
+       }
 
-            font-size: 20px;
-            padding: 20px;
-            background-color: brown;
-            color: white;
-            height: 100px;
-        }
+       .conteudo
+       {
+        align-items: center;
+        display: flex;
+        color: brown;
+        justify-content: center;
+        height: 50vh;
+       }
+
+       .rodape
+       {
+        background-color: brown;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+       }
+
+       .borda
+       {
+        border: 2px solid white;
+        border-collapse:collapse ;
+        padding: 5px;
+       }
+        
     </style>
 </head>
 <body>
     
-    <div class="conteudo">
-
+    <div class="cima"><img src="logo_etec_fg_1000x274.png" width="400px"></div>
+    <div class="topo">
+        <div class="borda"><a href="exercicio1.html">Exercicio 1</a></div>
+        <div class="borda"><a href="exercicio2.html">Exercicio 2</a></div>
+        <div class="borda"><a href="exercicio3.html">Exercicio 3</a></div>
+        <div class="borda"><a href="exercicio1.html">Exercicio 4</a></div>
+        <div class="borda"><a href="exercicio1.html">Exercicio 5</a></div>
     </div>
-    <img src="logo_etec_fg_1000x274.png" alt="50px">
+    
+    <div class="meio">
+        Exercicio 3
+    </div>
+
+    <div class="rodape">
+        Elaborada por Rodrigo Silva
+    </div>
 </body>
 </html>
