@@ -7,65 +7,105 @@
     <style>
        body
        {
-        background-color: white;
-
+        background-color: rgb(195, 191, 191);
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        height: 85vh;
        }
        
-       .conteudo
+       .quadrado
        {
-
+        background-color: white;
+        width: 700px;
+        margin: 0;
+        border-radius: 5px;
+        box-shadow: 4px 4px 5px gray;
        }
        
-       .principal
+       .imagem
         {
-            background-color: white;
-            height: 450px;
-            background-color: white;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
         }
 
         .camada1
         {
-            background-color: white;
-            color: brown;
+            padding-left: 20px;
+            font-weight: bold;
             display: flex;
-            height: 130px;
+        
+        }
+
+        .imagem2
+        {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .rodape
+        {
+            background-color: black;
+            text-align: center;
+            color: white;
+            margin: 0;
+
+        }
+
+        .a
+        {
+            align-items: center;
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
         }
 
         .camada2
         {
-            height: 150px;
-        }
-        
-        .camada21
-        {
-            height: 75px;
+            padding-left: 20px;
             display: flex;
-            align-items: center;
-            padding-left: 10px;
-
+            font-weight: bold;
         }
 
-        .camada22
-        {
-            height: 75px;
-            background-color: blue;
-        }
-
-        .camada3
-        {
-
-        }
-
-        .camada4
-        {
-
-        }
-    </style>
+        </style>
 </head>
 <body>
     
-    <div>
+    <div class="quadrado">
+        <div class="imagem">
+<img src="nsaonline.png" width="200px">
+        
+    </div>
+    </div>
+
+    <form action="">
+        <div class="camada1">
+            Entrar como <input type="text">
+            Cod Etec <input type="text">
+
+        </div>
+
+        <div class="camada2">
+            RM <input type="text">
+            Senha <input type="text">
+        </div>
+        </form>
 
     </div>
+
+    <div>
+        <a href="#">Solicitar nova senha</a>
+    </div>
+    <div class="imagem2">
+        <img src="android.png" width="100px">
+        <img src="apple-ios.png" width="100px">
+
+    </div>
+    <div class="rodape">
+        <p style="margin: 0;">Sistma NSA-Desde 2008</p>
+     </div>   
+    </div>
+
 </body>
 </html>
